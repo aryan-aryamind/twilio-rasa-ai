@@ -1,0 +1,16 @@
+version: "3.1"
+
+intents:
+  - ask_about_aryamind
+  - ask_aryamind_contact
+
+responses:
+  utter_about_aryamind:
+    - text: "AryaMind Technologies is a leading provider of AI and Blockchain solutions, offering custom AI agent development, NLP, machine learning, computer vision, and blockchain services. They also provide expert-led training in AI, blockchain, and digital marketing. Learn more at aryamindtech.com."
+
+  utter_aryamind_contact:
+    - text: "You can contact AryaMind Technologies at +91-9099803111 or email contact@aryamindtech.com. Their office is located at E-610, Ganesh Glory 11, Jagatpur near BSNL Office Gandhinagar Highway, Ahmedabad. Visit aryamindtech.com for more details."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,161 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_about_aryamind
+  examples: |
+    - What is AryaMind Technologies?
+    - what is aryamind technologies?
+    - Tell me about AryaMind Technologies
+    - tell me about aryamind technologies
+    - WHAT IS ARYAMIND TECHNOLOGIES?
+    - AryaMind Technologies
+    - aryamind technologies
+    - Aryamind
+    - aryamind
+    - Who is AryaMind?
+    - who is aryamind?
+    - Who are AryaMind Technologies?
+    - who are aryamind technologies?
+    - Give me information about AryaMind Technologies
+    - give me information about aryamind technologies
+    - What does AryaMind Technologies do?
+    - what does aryamind technologies do?
+    - Tell me about Aryamind
+    - tell me about Aryamind
+    - Can you tell me about AryaMind?
+    - can you tell me about aryamind?
+    - Info about AryaMind
+    - info about aryamind
+    - ARYAMIND
+    - ARYAMIND TECHNOLOGIES
+
+- intent: ask_aryamind_services
+  examples: |
+    - What services does AryaMind Technologies provide?
+    - List the services of AryaMind Technologies
+    - What can AryaMind Technologies do for my business?
+    - Tell me about AryaMind's AI and blockchain services
+    - What are AryaMind's main offerings?
+    - What kind of training does AryaMind offer?
+
+- intent: ask_aryamind_contact
+  examples: |
+    - How can I contact AryaMind Technologies?
+    - how can i contact aryamind technologies?
+    - HOW CAN I CONTACT ARYAMIND TECHNOLOGIES?
+    - What is the contact number for AryaMind Technologies?
+    - what is the contact number for aryamind technologies?
+    - Give me AryaMind's email address
+    - give me aryamind's email address
+    - Where is AryaMind Technologies located?
+    - where is aryamind technologies located?
+    - Contact AryaMind
+    - contact aryamind
+    - CONTACT ARYAMIND
+    - AryaMind address
+    - aryamind address
+    - How do I reach AryaMind Technologies?
+    - how do i reach aryamind technologies?
+    - How to contact AryaMind?
+    - how to contact aryamind?
+    - Email for AryaMind
+    - email for aryamind
+    - Phone number for AryaMind
+    - phone number for aryamind
+
+- intent: ask_aryamind_expertise
+  examples: |
+    - What is AryaMind Technologies known for?
+    - What expertise does AryaMind Technologies have?
+    - What makes AryaMind Technologies different?
+    - Why should I choose AryaMind Technologies?
+    - What industries does AryaMind Technologies serve?

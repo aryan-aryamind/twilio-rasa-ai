@@ -1,0 +1,50 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: respond to AryaMind Technologies questions
+  steps:
+  - intent: ask_about_aryamind
+  - action: utter_about_aryamind
+
+- story: respond to AryaMind Technologies services
+  steps:
+  - intent: ask_aryamind_services
+  - action: utter_aryamind_services
+
+- story: respond to AryaMind Technologies contact
+  steps:
+  - intent: ask_aryamind_contact
+  - action: utter_aryamind_contact
+
+- story: respond to AryaMind Technologies expertise
+  steps:
+  - intent: ask_aryamind_expertise
+  - action: utter_aryamind_expertise
