@@ -48,6 +48,19 @@ nlu:
     - don't like that
     - no way
     - not really
+    - end the call
+    - please end the call
+    - let's end the call
+    - I want to end the call
+    - end our conversation
+    - stop the call
+    - hang up
+    - disconnect
+    - terminate the call
+    - I'm done
+    - that's all
+    - nothing else
+    - no more questions
 
 - intent: mood_great
   examples: |
@@ -92,70 +105,88 @@ nlu:
 
 - intent: ask_about_aryamind
   examples: |
-    - What is AryaMind Technologies?
-    - what is aryamind technologies?
-    - Tell me about AryaMind Technologies
+    - what is aryamind
+    - tell me about aryamind
+    - who is aryamind
+    - what does aryamind do
     - tell me about aryamind technologies
-    - WHAT IS ARYAMIND TECHNOLOGIES?
-    - AryaMind Technologies
-    - aryamind technologies
-    - Aryamind
-    - aryamind
-    - Who is AryaMind?
-    - who is aryamind?
-    - Who are AryaMind Technologies?
-    - who are aryamind technologies?
-    - Give me information about AryaMind Technologies
-    - give me information about aryamind technologies
-    - What does AryaMind Technologies do?
-    - what does aryamind technologies do?
-    - Tell me about Aryamind
-    - tell me about Aryamind
-    - Can you tell me about AryaMind?
-    - can you tell me about aryamind?
-    - Info about AryaMind
-    - info about aryamind
-    - ARYAMIND
-    - ARYAMIND TECHNOLOGIES
+    - what is aryamind technologies
+    - who are you
+    - what company are you from
+    - what is your company
 
 - intent: ask_aryamind_services
   examples: |
-    - What services does AryaMind Technologies provide?
-    - List the services of AryaMind Technologies
-    - What can AryaMind Technologies do for my business?
-    - Tell me about AryaMind's AI and blockchain services
-    - What are AryaMind's main offerings?
-    - What kind of training does AryaMind offer?
+    - what services does aryamind offer
+    - what can aryamind do for me
+    - what are aryamind's services
+    - what solutions does aryamind provide
+    - what does aryamind specialize in
+    - what kind of services does aryamind have
+    - what are your services
+    - what do you offer
 
 - intent: ask_aryamind_contact
   examples: |
-    - How can I contact AryaMind Technologies?
-    - how can i contact aryamind technologies?
-    - HOW CAN I CONTACT ARYAMIND TECHNOLOGIES?
-    - What is the contact number for AryaMind Technologies?
-    - what is the contact number for aryamind technologies?
-    - Give me AryaMind's email address
-    - give me aryamind's email address
-    - Where is AryaMind Technologies located?
-    - where is aryamind technologies located?
-    - Contact AryaMind
-    - contact aryamind
-    - CONTACT ARYAMIND
-    - AryaMind address
-    - aryamind address
-    - How do I reach AryaMind Technologies?
-    - how do i reach aryamind technologies?
-    - How to contact AryaMind?
-    - how to contact aryamind?
-    - Email for AryaMind
-    - email for aryamind
-    - Phone number for AryaMind
-    - phone number for aryamind
+    - how can I contact aryamind
+    - what is aryamind's phone number
+    - what is aryamind's email
+    - where is aryamind located
+    - what is aryamind's address
+    - how to reach aryamind
+    - contact information for aryamind
+    - aryamind contact details
 
 - intent: ask_aryamind_expertise
   examples: |
-    - What is AryaMind Technologies known for?
-    - What expertise does AryaMind Technologies have?
-    - What makes AryaMind Technologies different?
-    - Why should I choose AryaMind Technologies?
-    - What industries does AryaMind Technologies serve?
+    - what is aryamind's expertise
+    - what are aryamind's specialties
+    - what technologies does aryamind work with
+    - what is aryamind good at
+    - what are your core competencies
+    - what are your areas of expertise
+    - what do you specialize in
+    - what are your strengths
+
+- intent: out_of_scope
+  examples: |
+    - who is aryan gajjar
+    - tell me about aryan
+    - what is the weather like
+    - tell me a joke
+    - what time is it
+    - who is the president
+    - what's the news
+    - tell me about sports
+    - what's the stock market doing
+    - what's the latest movie
+    - tell me about history
+    - what's your favorite color
+    - do you like music
+    - what's your hobby
+    - tell me about yourself
+    - what's your name
+    - how old are you
+    - who are you
+    - what do you do for fun
+    - what's your favorite food
+    - tell me about politics
+    - what's happening in the world
+    - what's your opinion on AI
+    - do you have any siblings
+    - where do you live
+    - what's your favorite movie
+    - tell me about your family
+    - what's your favorite book
+    - do you have any pets
+    - what's your favorite sport
+    - tell me about your childhood
+    - what's your favorite music
+    - do you have any hobbies
+    - what's your favorite place
+    - tell me about your friends
+    - what's your favorite season
+    - do you have any dreams
+    - what's your favorite animal
+    - tell me about your life
+    - what's your favorite game

@@ -1,15 +1,52 @@
 version: "3.1"
 
 intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
   - ask_about_aryamind
   - ask_aryamind_contact
+  - ask_aryamind_services
+  - ask_aryamind_expertise
+  - out_of_scope
 
 responses:
+  utter_greet:
+    - text: "Hello! I am Aryabot, your AI assistant from AryaMind Technologies. How can I help you today?"
+
+  utter_goodbye:
+    - text: "Thank you for chatting with me. If you have any questions about AryaMind Technologies in the future, feel free to ask!"
+
+  utter_happy:
+    - text: "Great! I'm glad you're having a good day. Is there anything specific you'd like to know about AryaMind Technologies?"
+
+  utter_cheer_up:
+    - text: "I'm sorry to hear that. Let me tell you about how AryaMind Technologies can help transform your business with our innovative solutions."
+
+  utter_did_that_help:
+    - text: "Did that help? Is there anything else you'd like to know about AryaMind Technologies?"
+
+  utter_iamabot:
+    - text: "I am Aryabot, an AI assistant created by AryaMind Technologies to help you learn about our company and services."
+
   utter_about_aryamind:
     - text: "AryaMind Technologies is a leading provider of AI and Blockchain solutions, offering custom AI agent development, NLP, machine learning, computer vision, and blockchain services. They also provide expert-led training in AI, blockchain, and digital marketing. Learn more at aryamindtech.com."
 
   utter_aryamind_contact:
     - text: "You can contact AryaMind Technologies at +91-9099803111 or email contact@aryamindtech.com. Their office is located at E-610, Ganesh Glory 11, Jagatpur near BSNL Office Gandhinagar Highway, Ahmedabad. Visit aryamindtech.com for more details."
+
+  utter_aryamind_services:
+    - text: "AryaMind Technologies offers a comprehensive range of services including custom AI agent development, natural language processing, machine learning solutions, computer vision applications, blockchain development, and expert-led training programs in AI, blockchain, and digital marketing."
+
+  utter_aryamind_expertise:
+    - text: "AryaMind Technologies specializes in cutting-edge AI solutions, blockchain technology, and digital transformation. Our team of experts excels in developing custom AI agents, implementing NLP solutions, creating machine learning models, and building blockchain applications. We also provide comprehensive training programs to help businesses leverage these technologies effectively."
+
+  utter_out_of_scope:
+    - text: "I apologize, but I don't have information about that. I can only provide information about AryaMind Technologies. Would you like to ask something about AryaMind, or should I end our call?"
 
 session_config:
   session_expiration_time: 60

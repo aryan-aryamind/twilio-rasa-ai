@@ -48,3 +48,51 @@ stories:
   steps:
   - intent: ask_aryamind_expertise
   - action: utter_aryamind_expertise
+
+- story: out of scope path
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: ask_about_aryamind
+  - action: utter_about_aryamind
+
+- story: out of scope to contact
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: ask_aryamind_contact
+  - action: utter_aryamind_contact
+
+- story: out of scope to services
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: ask_aryamind_services
+  - action: utter_aryamind_services
+
+- story: out of scope to expertise
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: ask_aryamind_expertise
+  - action: utter_aryamind_expertise
+
+- story: direct path to about
+  steps:
+  - intent: ask_about_aryamind
+  - action: utter_about_aryamind
+
+- story: direct path to contact
+  steps:
+  - intent: ask_aryamind_contact
+  - action: utter_aryamind_contact
+
+- story: direct path to services
+  steps:
+  - intent: ask_aryamind_services
+  - action: utter_aryamind_services
+
+- story: direct path to expertise
+  steps:
+  - intent: ask_aryamind_expertise
+  - action: utter_aryamind_expertise
